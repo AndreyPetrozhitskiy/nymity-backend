@@ -1,6 +1,5 @@
 const express = require("express");
 const fs = require('fs');
-const path = require("path");
 const cors = require("cors");
 const https = require('https');
 const dotenv = require("dotenv");
@@ -31,6 +30,3 @@ httpsServer.listen(PORT, () => {
     console.log(`HTTPS Server running on port ${PORT}`);
   });
 
-// app.listen(PORT, async () => {
-//   console.log(`Сервер запущен на ${PORT} порту`);
-// });
